@@ -1,0 +1,84 @@
+header {
+  background-color: #007bff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.success-message, .error-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.custom-background {
+  background-image: url("images/fondo.jpg");
+  background-size: cover;
+}
+
+.custom-header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 0;
+}
+
+.custom-heading {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.custom-nav {
+  background-color: #6c757d;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.custom-nav .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.custom-nav .nav-link:hover {
+  background-color: #545b62;
+}
+
+.custom-lead {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}/*# sourceMappingURL=styles.css.map */

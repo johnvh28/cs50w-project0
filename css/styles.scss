@@ -1,0 +1,101 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-family: Arial, sans-serif;
+
+
+
+header {
+  background-color: $primary-color;
+}
+
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline;
+      margin-right: 10px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.error-message {
+  @extend .success-message;
+  color: red;
+}
+
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.custom-background {
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+}
+
+.custom-header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem 0;
+}
+
+.custom-heading {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.custom-nav {
+    background-color: $secondary-color;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.custom-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.custom-nav .nav-link:hover {
+    background-color: darken($secondary-color, 10%);
+}
+
+.custom-lead {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: $primary-color;
+}
